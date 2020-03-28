@@ -71,7 +71,6 @@ $(document).ready(function() {
 
         for (var i = 0; i < data.list.length; i += 8){
           var col = $("<div>").addClass("col-md-2");
-          //var card = $("<div>").addClass("card bg-primary text-white");
           if(data.list[i].weather[0].main == "Clouds"){
           var card = $("<div>").addClass("card bg-secondary");
           }
